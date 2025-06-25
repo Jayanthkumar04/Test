@@ -27,4 +27,11 @@ public class TestController {
 		return names;
 	}
 	
+	@GetMapping("/food")
+	public String foodMsg()
+	{
+		return "i am eating food";
+	}
+	
+	
 }
